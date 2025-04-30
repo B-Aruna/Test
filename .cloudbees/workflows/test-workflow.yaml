@@ -9,7 +9,7 @@ jobs:
       - name: save-build-artifacts
         uses: cloudbees-io/register-build-artifact@v1
         with:
-          name: "myApp"
+          name: "myApp1"
           version: "1.0.0"
-          url: "docker.io/myapp/myimg:1.0.0"
+          url: "docker.io/myapp/myApp1:1.0.0"
           digest: ""
